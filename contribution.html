@@ -1,0 +1,173 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contributing &#8212; python-poppler  documentation</title>
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/language_data.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="API Reference" href="modules.html" />
+    <link rel="prev" title="Using python-poppler" href="usage.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="contributing">
+<span id="id1"></span><h1>Contributing<a class="headerlink" href="#contributing" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="reporting-bugs">
+<h2>Reporting bugs<a class="headerlink" href="#reporting-bugs" title="Permalink to this headline">¶</a></h2>
+<p>Bugs are reported using the <cite>Issue tracker on GitHub &lt;https://github.com/cbrunet/python-poppler/issues&gt;</cite>.</p>
+<p>When you report a bug, try to be as specific as possible, and provide all the relevant information:</p>
+<ul class="simple">
+<li><p>Version of poppler</p></li>
+<li><p>Version of python-poppler</p></li>
+<li><p>Operating system name and version</p></li>
+<li><p>Python version</p></li>
+</ul>
+<p>If an exception occured, provide the entire stack trace.</p>
+<p>Before submitting a new bug, please verify it is not already reported. If it is, verify if
+you can provide additional information.</p>
+<p>If you can, consider <a class="reference internal" href="#pull-request">pull_request</a>.</p>
+</div>
+<div class="section" id="requesting-features">
+<h2>Requesting features<a class="headerlink" href="#requesting-features" title="Permalink to this headline">¶</a></h2>
+<p>Suggestions and feature requests can be submitted using the <cite>Issue tracker on GitHub &lt;https://github.com/cbrunet/python-poppler/issues&gt;</cite> as well.</p>
+<p>However, you should understand that the main goal of <strong>python-poppler</strong> is to provide a Python binding
+to the poppler-cpp library. Therefore, if you need a feature that is not currently in poppler-cpp,
+we will probably not implement it in python-poppler. But if you integrate a new feature in poppler-cpp,
+we will certainly add it to python-poppler.</p>
+</div>
+<div class="section" id="submiting-a-pull-request">
+<span id="pull-request"></span><h2>Submiting a pull request<a class="headerlink" href="#submiting-a-pull-request" title="Permalink to this headline">¶</a></h2>
+<p>Pull requests are the prefered way for submitting patches, bug corrections, and new features.</p>
+<p>When you submit a pull request, verify the following points:</p>
+<ul class="simple">
+<li><p>You agree that the submitted code is under GPL 2.0 license;</p></li>
+<li><p>Code is formatted using <cite>black &lt;https://github.com/psf/black&gt;</cite>. Ensure everything
+is well formated, using <cite>tox -e lint</cite> command;</p></li>
+<li><p>Please provide tests proving the bug is corrected, or covering the new feature, when it’s possible;</p></li>
+<li><p>Ensure that all unit tests pass, using the <cite>tox</cite> command;</p></li>
+<li><p>Add a line to the changelog, in the NEWS.txt file;</p></li>
+<li><p>Update the documentation, when it applies.</p></li>
+</ul>
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">python-poppler</a></h1>
+
+
+
+<p class="blurb">Python binding to poppler-cpp library, to read and render PDF documents.</p>
+
+
+
+
+<p>
+<iframe src="https://ghbtns.com/github-btn.html?user=cbrunet&repo=python-poppler&type=watch&count=true&size=large&v=2"
+  allowtransparency="true" frameborder="0" scrolling="0" width="200px" height="35px"></iframe>
+</p>
+
+
+
+
+
+<h3>Navigation</h3>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="usage.html">Using python-poppler</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Contributing</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#reporting-bugs">Reporting bugs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#requesting-features">Requesting features</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#submiting-a-pull-request">Submiting a pull request</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="modules.html">API Reference</a></li>
+</ul>
+
+
+<hr />
+<ul>
+    
+    <li class="toctree-l1"><a href="https://github.com/cbrunet/python-poppler">GitHub</a></li>
+    
+    <li class="toctree-l1"><a href="https://github.com/cbrunet/python-poppler/issues">Issues tracker</a></li>
+    
+    <li class="toctree-l1"><a href="https://pypi.org/project/python-poppler/">PyPI</a></li>
+    
+</ul>
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="usage.html" title="previous chapter">Using python-poppler</a></li>
+      <li>Next: <a href="modules.html" title="next chapter">API Reference</a></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2020, Charles Brunet.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 3.1.2</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="_sources/contribution.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
